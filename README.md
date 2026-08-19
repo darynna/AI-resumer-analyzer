@@ -18,14 +18,6 @@ Analyze your resume against a specific job description, get an ATS score, and re
 
 ---
 
-## 📸 Preview
-
-<p align="center">
-  <img src="./public/images/resume_01.png" alt="Hireloom Resume Analyzer" width="800"/>
-</p>
-
----
-
 ## ✨ Features
 
 ### 🤖 AI Resume Analysis
