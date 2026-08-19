@@ -6,9 +6,10 @@ const WipeApp = () => {
     const { auth, isLoading, error, fs, kv } = usePuterStore();
     const navigate = useNavigate();
 
+    const [files, setFiles] = useState<FSItem[]>([]);
+
     const ADMIN_USERNAME = import.meta.env.VITE_ADMIN_USERNAME;
 
-    const [files, setFiles] = useState<FSItem[]>([]);
 
     const loadFiles = async () => {
         const files = (await fs.readDir("./")) as FSItem[];
