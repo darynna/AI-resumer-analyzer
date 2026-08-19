@@ -25,7 +25,7 @@ const Resume = () => {
 
   useEffect(() => {
     const loadResume = async ()=> {
-      const resume = await kv.get('resumer:' + id);
+      const resume = await kv.get('resume:' + id);
 
       if(!resume) return;
 
